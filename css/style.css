@@ -1,0 +1,113 @@
+body {
+  background-color: var(--bs-light);
+  transition: all 0.3s;
+}
+
+.darknav {
+  transition: all 0.3s;
+
+  background-color: var(--bs-light);
+}
+
+.navbar-brand {
+  color: #8b76f3;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #8b76f3;
+}
+
+.skillsboxCS {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #8b76f3;
+  background-color: #8b76f3;
+  text-shadow: 5px 5px 5px var(--bs-dark);
+  /* clip-path: circle(50% at 50% 50%); */
+}
+
+/* .htmlCS {
+  background: linear-gradient(30deg, #8b76f3 84%, transparent 10%);
+}
+
+.cssCS {
+  background: linear-gradient(30deg, #8b76f3 76%, transparent 60%);
+}
+
+.jsCS {
+  background: linear-gradient(30deg, #8b76f3 55%, transparent 10%);
+}
+
+.jqueryCS {
+  background: linear-gradient(30deg, #8b76f3 64%, transparent 60%);
+} */
+
+input {
+  display: block;
+}
+
+i {
+  color: #8b76f3;
+}
+
+.contactCS {
+  color: var(--bs-dark);
+  text-decoration: none;
+}
+
+.custombtnCS {
+  color: #ffff;
+  text-decoration: none;
+  background-color: #8b76f3;
+  border: 2px solid #8b76f3;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.custombtnCS:hover {
+  color: #8b76f3;
+  background-color: transparent;
+}
+
+#modeCS {
+  cursor: pointer;
+}
+
+.darkmode {
+  color: var(--bs-light);
+  background-color: var(--bs-dark);
+  transition: all 0.3s;
+}
+
+.darkmodebtn {
+  color: var(--bs-dark);
+}
+
+input {
+  background-color: var(--bs-dark);
+}
+
+@media (min-width: 576px) {
+  .bannerimgrCS {
+    width: auto;
+    height: auto;
+  }
+
+  .imgCS {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bannerimgCS {
+    width: 380px;
+    height: 300px;
+  }
+
+  .imgCS {
+    width: 380px;
+    height: 300px;
+  }
+}
